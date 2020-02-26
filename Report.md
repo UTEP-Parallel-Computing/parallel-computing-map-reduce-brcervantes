@@ -13,8 +13,8 @@ This assignment proved challenging in figuring out how to initialize a dictionar
 
 After testing the program with 1,2,4,8 threads, I found that as the program was given increased threads the execution time took longer.
 
-1 threads : 0.5922 seconds
-2 threads : 0.6212 seconds
-4 threads : 0.7658 seconds
-8 threads : 1.1340 seconds
+- 1 threads : 0.5922 seconds
+- 2 threads : 0.6212 seconds
+- 4 threads : 0.7658 seconds
+- 8 threads : 1.1340 seconds
 
