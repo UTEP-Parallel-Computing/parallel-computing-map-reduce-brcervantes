@@ -18,3 +18,5 @@ After testing the program with 1,2,4,8 threads, I found that as the program was 
 - 4 threads : 0.7658 seconds
 - 8 threads : 1.1340 seconds
 
+>model name      : Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+      4         36         216
