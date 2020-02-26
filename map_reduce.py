@@ -56,13 +56,14 @@ def main():
             "honest"]
 
     word_list = mp.shared.dict()
-    for word in words:
-        word_list[word] = 0
 
     start = timer()
 
     #parallelize this part
-    with mp.Parallel(3) as p:
+    with mp.Parallel(8) as p:
+        for word in words:
+            word_list[word] = 0
+
         file_list = mp.shared.dict()
 
         file_list["shakespeare1.txt"] = ""
